@@ -1,0 +1,18 @@
+<div class="card text-left m-4 align-items-center" style="width: 18rem">
+  <img [src]="userPic" class="card-img-top" alt="user profile photo" />
+  <div class="card-body ps-4">
+    <h5 class="card-title d-flex align-items-center justify-content-evenly">
+      {{ username }}
+
+      @if (password.length > 10) {
+      <i class="bx bx-check" style="color: rgb(0, 200, 0); font-size: 35px"></i>
+      }
+    </h5>
+    <p class="card-text">
+      {{ userEmail }}
+    </p>
+    <p class="card-text">
+      {{ userTel }}
+    </p>
+  </div>
+</div>

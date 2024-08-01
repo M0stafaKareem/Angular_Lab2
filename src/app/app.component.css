@@ -1,0 +1,8 @@
+#mainContainer {
+  position: sticky;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
